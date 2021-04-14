@@ -1,0 +1,11 @@
+body {
+    background-color: rgb(240, 187, 224);
+    text-align: center;
+}
+h1 {
+    font-size: 50pt;
+    margin-bottom: 100px;
+}
+p {
+    font-size: 20pt;
+}
