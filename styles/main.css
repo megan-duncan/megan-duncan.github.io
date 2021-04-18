@@ -1,0 +1,65 @@
+* {
+    
+
+
+   
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: 'Antonio', sans-serif;
+  }
+  
+  
+
+  body {
+    font-size: 14px;
+    background-color: teal;
+    font: white;
+    text-align: center;
+    font-family: 'Antonio', sans-serif;
+  }
+  h1 {
+      color: white;
+      
+  }
+  p {
+      color: white;
+  }
+  .container {
+      width: 80%
+  }
+
+  header {
+      background: black;
+  }
+  nav {
+      text-align: left;
+  }
+  
+  nav ul{
+      margin: 0;
+      padding: 0
+      list-style: none;
+  }
+
+  nav li {
+      display: inline-block;
+      margin-left: 100px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+
+  }
+
+  nav a {
+      color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  nav a:hover {
+      color: teal;
+      cursor: default;
+  }
+}
+
+
