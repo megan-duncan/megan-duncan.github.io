@@ -65,6 +65,12 @@
       color: teal;
       cursor: default;
   }
+
+  .headshot {
+      max-width: 250px;
+      float: left;
+      margin-left: 100px;
+  }
   
 
 
