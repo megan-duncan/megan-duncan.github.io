@@ -20,14 +20,19 @@
   }
   h1 {
       color: white;
+      margin-top: 50px;
+      margin-bottom: 50px;
       
   }
   p {
       color: white;
+      margin-bottom: 10px;
   }
   .container {
       width: 80%
   }
+
+  
 
   header {
       background: black;
@@ -60,6 +65,7 @@
       color: teal;
       cursor: default;
   }
-}
+  
+
 
 
