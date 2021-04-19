@@ -77,7 +77,7 @@
       
   }
 
-  .headerimage {
+  .headerimageleft {
     float: left;
     margin-left: 60px;
     color: white;
@@ -85,6 +85,14 @@
     margin-right: 20px;
     margin-bottom: 15px;
     
+  }
+
+  .headerimageright {
+      float: right;
+      margin-right: 60px;
+      font-size: small;
+      margin-left: 20px;
+      margin-bottom: 15px;
   }
 
   h3{
