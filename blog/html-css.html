@@ -3,9 +3,8 @@
     <head>
         <link href="../styles/html-css.css" rel=stylesheet type="text/css">
         <meta charset="utf-8">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap" rel="stylesheet">
-
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
         <title>Margin-Border-Padding</title>
     </head>
 
@@ -36,7 +35,7 @@
         <div class="section-header"><h3>The Box Model</h3></div>
            <div class="row">
                
-               <div class="col-6"><img class="examples" src="https://miro.medium.com/max/462/1*_Q0vGWv0CTxyZhF8hl5AfA.png" alt="Diagram of the box model"></div>
+               <div class="col-6"><img class="boxexample" src="https://miro.medium.com/max/462/1*_Q0vGWv0CTxyZhF8hl5AfA.png" alt="Diagram of the box model"></div>
                <div class="col-6"><p>To the left is a diagram of a box model. As you can see, it is made up of four layers</p>
                    <ul class="list">
                        <li>Content Box - the innermost layer where your content is displayed.</li>
@@ -66,7 +65,7 @@
         <div class="section-header"><h3>Content</h3></div>
            
            <div class="row">
-            <p>Your content is the text/image (or anything else, really) that you want to be displayed on your page. You can change the sizer of your content using properties like width and height
+            <p>Your content is the text/image (or anything else, really) that you want to be displayed on your page. You can change the size of your content using properties like width and height
             </p>
             </div>
         </div>
@@ -77,39 +76,22 @@
         </div>
            <div>
             <p>The padding is the whitespace between the content and the border.</p>
-            <p>You can change the size of the padding by ising the property padding followed by the size you want eg:padding:10px</p>
+            <p class="largetext">You can change the size of the padding by using the property padding followed by the size you want.</p>
+            
+            <p class="largetext">If you wanted to change the size of each side individually, you would use the following properties: padding-top, padding-bottom, padding-left, padding-right.</p>
+            
             </div>
     
             
            <div class="row">
                
-            <div class="col-6"><img class="examples" src="https://miro.medium.com/max/462/1*_Q0vGWv0CTxyZhF8hl5AfA.png" alt="Diagram of the box model"></div>
-            <div class="col-6"><p>To the left is a diagram of a box model. As you can see, it is made up of four layers</p>
-                <ul class="list">
-                    <li>Content Box - the innermost layer where your content is displayed.</li>
-                    <li>Padding Box - this sits right around your content box, inside the border and is white space.</li>
-                    <li>Border Box - this wraps around your content and padding.</li>
-                    <li>Margin Box - the outermost layer, wrapping your element and creating whitespace between it and any other elements.</li>
-                </ul>
-             </div>
+            <div class="col-6"><img class="examples" src="../images/tech-blog-1/20px-padding.jpg" alt="Diagram of the box model with 20px padding all sides"><p class="explainations">The shorthand code for this would be - padding: 20px;</p></div>
+            
+             <div class="col-6"><img class="examples" src="../images/tech-blog-1/varyingpx-padding.jpg" alt="Diagram of the box model with different padding valiues"><p class="explainations">The code for this would be - padding-left: 40px; padding-right: 30px; padding-top: 10px; padding-bottom: 20px;</p></div>
+
         </div>
         <div>
-            <p>If you wanted to change the size of each side individually, you would use the following properties: padding-top, padding-bottom, padding-left, padding-right.</p>
-        </div>
-        <div class="row">
-               
-               <div class="col-6"><img class="examples" src="https://miro.medium.com/max/462/1*_Q0vGWv0CTxyZhF8hl5AfA.png" alt="Diagram of the box model"></div>
-            <div class="col-6"><p>To the left is a diagram of a box model. As you can see, it is made up of four layers</p>
-                <ul class="list">
-                    <li>Content Box - the innermost layer where your content is displayed.</li>
-                    <li>Padding Box - this sits right around your content box, inside the border and is white space.</li>
-                    <li>Border Box - this wraps around your content and padding.</li>
-                    <li>Margin Box - the outermost layer, wrapping your element and creating whitespace between it and any other elements.</li>
-                </ul>
-             </div>
-        </div>
-        <div>
-            <p>If you are using the standard box model, when you increase the size of your padding, you are increasing the size of your element.
+            <p class="largetext">If you are using the standard box model, when you increase the size of your padding, you are increasing the size of your element.
             </p>
         </div>
     </div>
@@ -119,57 +101,71 @@
           
             
            <div class="row">
-            <p>Each of these layers can be altered to change the way your element interacts with other elements on the page, below I will go into more detail about what these layers are, and how to alter them.
-            But first, here is a handy analogy I came across online may help you to understand the box model.</p>
+            <p>The border is the line between the padding and margin of a box. The default border is not visible on a page, but we can change the width, style and colour of the border to make it more of a feature.
+            </p>
+            </div>
+            <div>
+                <p class="largetext">
+                    Like with the padding, you can opt to change all 4 borders at once with the border property
+Or each side individually using border-top etc followed by what you are wanting to change eg border topwidth/style/color
+
+                </p>
+            </div>
+
+            <div>
+                <p>Here are some of the border styles available...</p>
             </div>
             <div class="explainations">
-            <p>Imagine that you have a set of framed and matted photographs hanging on a wall.</p>
-                <p>Each photo is surrounded by a mat that puts space between the photo and the frame. That space would be the padding.</p>
-                <p>The frame encloses the mat and the image. That would be the border.</p>
-                <p>Each picture has a set amount of space around the outside. That is the margin. If two pictures are handing side by side with four inches between them, then we might say that they each have a two inch margin. The margin is the distance between an element and something else.</p>
+        
             
            </div>
            <div class="row">
-           <div class="col-6"><img class="examples" src="https://miro.medium.com/max/462/1*_Q0vGWv0CTxyZhF8hl5AfA.png" alt="Diagram of the box model"></div>
-           <div class="col-6"><p>To the left is a diagram of a box model. As you can see, it is made up of four layers</p>
-               <ul class="list">
-                   <li>Content Box - the innermost layer where your content is displayed.</li>
-                   <li>Padding Box - this sits right around your content box, inside the border and is white space.</li>
-                   <li>Border Box - this wraps around your content and padding.</li>
-                   <li>Margin Box - the outermost layer, wrapping your element and creating whitespace between it and any other elements.</li>
-               </ul>
+               <div class="col-3"></div>
+           <img class="col-6" src="../images/tech-blog-1/border-examples.jpg">
             </div>
+            <div class="col-3"></div>
        </div>
        </div>
     </div>
 
     <div>
         <div class="section-header"><h3>Margin</h3></div>
+           
            <div class="row">
-               
-               <div class="col-6"><img class="examples" src="https://miro.medium.com/max/462/1*_Q0vGWv0CTxyZhF8hl5AfA.png" alt="Diagram of the box model"></div>
-               <div class="col-6"><p>To the left is a diagram of a box model. As you can see, it is made up of four layers</p>
-                   <ul class="list">
-                       <li>Content Box - the innermost layer where your content is displayed.</li>
-                       <li>Padding Box - this sits right around your content box, inside the border and is white space.</li>
-                       <li>Border Box - this wraps around your content and padding.</li>
-                       <li>Margin Box - the outermost layer, wrapping your element and creating whitespace between it and any other elements.</li>
-                   </ul>
-                </div>
-           </div>
-           <div class="row">
-            <p>Each of these layers can be altered to change the way your element interacts with other elements on the page, below I will go into more detail about what these layers are, and how to alter them.
-            But first, here is a handy analogy I came across online may help you to understand the box model.</p>
+            <p>The margin is the white space around your box, when you increase its size, you push other elements further away from the box.
+            </p>
+               </div>
             </div>
-            <div class="explainations">
-            <p>Imagine that you have a set of framed and matted photographs hanging on a wall.</p>
-                <p>Each photo is surrounded by a mat that puts space between the photo and the frame. That space would be the padding.</p>
-                <p>The frame encloses the mat and the image. That would be the border.</p>
-                <p>Each picture has a set amount of space around the outside. That is the margin. If two pictures are handing side by side with four inches between them, then we might say that they each have a two inch margin. The margin is the distance between an element and something else.</p>
+            <div>
+                <p>
+                    We can change the size of all 4 margins using the property margin or each individually using margin-top etc..</p>
+                <p class="largetext">Margin is the only property in the box that can have a negative value, this will cause it to overlap the other things on the page.</p>
+                <p class="largetext">One thing to be aware of, is that positive margins don’t overlap. This means  2 elements side by side with margin of 20px will create a space of 40px between them.
+                </p>
+            </div>
+            <div >
+                <p>The size of the margin is always added on top of the size of the box.
+                </p>
             
            </div>
-       </div>
-    </div>
+
+
+           <div class="row">
+
+            <div class="col-6"><img class="examples" src="../images/tech-blog-1/varyingpx-margin.jpg" alt="Diagram of the box model with different margin values"><p class="explainations">The code for this would be - margin-left: 40px; margin-right: 30px; margin-top: 10px; margin-bottom: 20px;</p></div>
+               
+            <div class="col-6"><img class="examples" src="../images/tech-blog-1/2x20px-margin.jpg" alt="Diagram of two box models with 20px margin all sides creating a 40px space"><p class="explainations">These two elements with 20px margins create a 40px space when next to each other.</p></div>
+           </div>
+            <div>
+                <div class="section-header"><h3>Thank you for making it this far!</h3></div>
+                   
+                   <div>
+                    <p>Hopefully you learned something. Feedback is always welcome.
+                    </p>
+                    </div>
+                </div>
+            </div>
+            
 
     </body>
 
