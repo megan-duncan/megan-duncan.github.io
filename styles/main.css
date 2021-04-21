@@ -32,7 +32,7 @@
       margin-right: 60px;
   }
   .container {
-      width: 80%
+      width: 80%;
   }
 
   
@@ -97,9 +97,30 @@
 
   h3{
       text-transform: uppercase;
+      margin: 20px;
   }
   
+  .footer {
+      margin-top: 60px;
+  }
+h4 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.bloglink {
+    border-radius: 32px;
+    background-color: black;
+  border: none;
+  color: white;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 20px;
+  };
+
+
   
-
-
+  
 
