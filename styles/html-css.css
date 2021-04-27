@@ -122,3 +122,19 @@
 .centerimage {
     box-align: center;
 }
+.treehouseimages {
+    width: 100px;
+    height: inherit;
+    
+}
+
+.sections {
+    padding-top: 20px;
+}
+.paragraphs {
+    padding-top: 15px;
+}
+.bold {
+    font-weight: bolder;
+    color: lightblue;
+}
