@@ -27,25 +27,28 @@
   }
 
   .container {
-      width: 80%;
+    width: 80%;
   }
-
+  
   header {
-      background: black;
+    display: flex;
+    flex-direction: row;
+    background: black;
+    font-size: 4vw;
   }
   nav {
       text-align: left;
   }
   
   nav ul{
+    display: inline-flex;
       margin: 0;
       padding: 0;
       list-style: none;
   }
 
   nav li {
-      display: inline-block;
-      margin-left: 100px;
+      margin-left: 10vw;
       padding-top: 20px;
       padding-bottom: 20px;
 
@@ -63,17 +66,15 @@
   }
 
   .headshot {
-    max-width: 25vw;
+    max-width: 30vw;
     border-radius: 25%;
   }
   
   .headerimage {
-    display: flex;
     flex-direction: column;
     min-width: 30vw;
     color: white;
-    font-size: 2vh;
-    margin: 20px;
+    margin: 20px 0;
     align-items: center;
     justify-content: flex-start;
   }
@@ -113,7 +114,7 @@ h4 {
 .pageContent {
   display: flex;
   flex-direction:row;
-  margin: 40px;
+  margin: 9vw;
   align-items: center;
   justify-content: space-around;
 }
