@@ -86,6 +86,7 @@
   
   .footer {
       margin-top: 60px;
+      font-size: 4vw;
   }
 h4 {
     text-transform: uppercase;
@@ -93,12 +94,12 @@ h4 {
     padding-top: 20px;
 }
 .bloglink {
-    border-radius: 32px;
-    background-color: black;
+  font-size: 6vw;
+  border-radius: 32px;
+  background-color: black;
   border: none;
   color: white;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding: 30px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
