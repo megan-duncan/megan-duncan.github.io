@@ -82,8 +82,7 @@
   }
 
   .explainations {
-      font-size: medium;
-      padding-top: ;
+      font-size: 1.2vw;
   }
   .col-6 {
     width: 50%;
@@ -103,15 +102,9 @@
     display: flex;
 }
 
-.section-header {
-    margin-top: 30px;
-    margin-bottom: 20px;
-    text-decoration: underline;
-}
-
 .list {
     text-align: left;
-    font-size: medium;
+    font-size: 1.2vw;
 }
 .examples {
     padding: 20px;
@@ -128,9 +121,6 @@
     
 }
 
-.sections {
-    padding-top: 20px;
-}
 .paragraphs {
     padding-top: 15px;
 }

@@ -78,7 +78,7 @@
   
   .footer {
     margin-top: 2vw;
-    font-size: 2vw;
+    font-size: 1.5vw;
     background-color: black;
     padding: .5vw;
   }
@@ -107,24 +107,28 @@
   }
   
   
-  .page {
-    display: inline-flex;
-    flex-direction: column;
-    width: 90vw;
-    font-size: 2vw;
-  }
-  
-  .page-title {
-      margin-top: 2vw;
-      margin-bottom: 2vw;
-      text-transform: uppercase;
-      font-size: 4vw;
-  }
+.page {
+  display: inline-flex;
+  flex-direction: column;
+  width: 90vw;
+  font-size: 1.5vw;
+}
+
+.page-title {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    text-transform: uppercase;
+    font-size: 4vw;
+}
+
+.page-subtitle {
+  font-size: 2vw;
+}
 
 .pageContent {
   display: flex;
   flex-direction:row;
-  margin: 9vw;
+  margin: 1vw;
   align-items: center;
   justify-content: space-around;
 }
@@ -136,13 +140,13 @@
 .section-title {
   text-transform: uppercase;
   margin-bottom: 1vw;
-  font-size: 3vw;
+  font-size: 2vw;
 }
 
 .section-subtitle {
   text-transform: uppercase;
   margin-bottom: 1vw;
-  font-size: 2.5vw;
+  font-size: 1.5vw;
 }
 
   
