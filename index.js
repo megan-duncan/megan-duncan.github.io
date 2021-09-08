@@ -6,11 +6,9 @@ import App from "./components/App.jsx";
 import "./styles/main.css";
 
 const appRouting = (
-  <Router>
-    <Switch>
-      <Route exact path="/" component={App} />
-    </Switch>
-  </Router>
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
 );
 
 ReactDOM.render(appRouting, document.getElementById("root"));
