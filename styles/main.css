@@ -19,7 +19,7 @@ body {
   width: 80%;
 }
 
-.header {
+header {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
